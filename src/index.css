@@ -1,13 +1,102 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+ 
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #F5F5F5;
+  color:#696969;
+  font-family: 'Poppins';
 }
+
+
+
+.product-canvas {
+  width: 90vw;
+  height: 75vh;
+  background:white;
+  border-radius: 5px;
+  margin-bottom:20px
+
+}
+
+.colors {
+display:flex;
+flex-direction:row;
+padding-left: 24cm;
+}
+
+/*Shaders*/
+#shaders{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+#shaders::-webkit-color-swatch{
+  border-radius: 12px;
+  border: none;
+}
+
+
+#shaders::-moz-color-swatch{
+  border-radius: 12px;
+  border: none;
+}
+
+/*Neck*/
+#neck{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+#neck::-webkit-color-swatch{
+  border-radius: 12px;
+  border: none;
+}
+
+#neck::-moz-color-swatch{
+  border-radius: 12px;
+  border: none;
+}
+
+/*Base*/
+#base{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+#base::-webkit-color-swatch{
+  border-radius: 12px;
+  border: none;
+}
+
+#base::-moz-color-swatch{
+  border-radius: 12px;
+  border: none;
+}
+.colors div {padding:9px;}
